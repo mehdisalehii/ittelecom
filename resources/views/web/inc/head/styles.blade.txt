@@ -1,0 +1,5 @@
+{{-- <link href="{{ mix( config('path.assets.css').'/web.css') }}" rel="stylesheet" as="style" media="all"> --}}
+<link href="{{ config('path.assets.css').'/web.a26852b9db0db1ec2865ab24f1f60d1a.css' }}" media="all" rel="stylesheet" as="style">
+@can('admin_panel')
+{{-- <link href="{{ mix(  config('path.assets.css').'/admin.css') }}" rel="stylesheet" as="style" media="all"> --}}
+@endcan

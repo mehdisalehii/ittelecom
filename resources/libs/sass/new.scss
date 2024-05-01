@@ -1,0 +1,21 @@
+@import "common";
+//@import "old";
+@import "variables";
+@import "bootstrap";
+
+ul.menu li.menu-main a {
+  padding: 12px 4px;
+}
+
+ul.menu li a {
+  padding: 12px 8px 16px 20px;
+}
+
+ul.menu li.information span.txt {
+  padding: 12px 8px 12px 0;
+}
+
+.notfoundaj {
+  text-align: center;
+  font-color: #000;
+}

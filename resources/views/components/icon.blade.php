@@ -1,0 +1,1 @@
+<i class="icn block {{ $class ?? null }}" style="background-image:url(/icons/{{ $url }});{{ $style ?? null }}"></i>

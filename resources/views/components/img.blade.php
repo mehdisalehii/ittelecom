@@ -1,0 +1,1 @@
+<img class="{{ $class ?? null }}" alt="{{ $alt }}" src="{{ $url }}" data-src="{{ $data ?? null }}" {{ $size ?? null }} >

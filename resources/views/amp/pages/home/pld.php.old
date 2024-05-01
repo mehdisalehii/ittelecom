@@ -1,0 +1,18 @@
+<aside class="gray row products-carousel motto-0 icon-text">
+    <div class="h1 text-right bold"><i class="icn fill float-right" style="background-image: url(/assets/icons/layout-dashboard.svg);"></i>دسته‌بندی محصولات</div>
+    <amp-carousel type="carousel" dir="ltr" layout="fixed-height" height="230">
+
+    @php $i_numb_t=1; @endphp
+    @foreach($subcategorythumb as $row)
+
+        <div class="carousel-item-box">
+            <a class="block float-right" href="{{$row->slug}}/amp" title="{{$row->title}}">
+                <amp-img src="/images/uploads/picture/product/{{$row->thumb}}" layout="responsive" alt="{{$row->title}}"  width="300" height="300" ></amp-img>
+                <div class="txt extra bold direction-rtl">{{$row->title}}</div>
+            </a>
+        </div>
+        @php $i_numb_t++; @endphp
+    @endforeach
+
+    </amp-carousel>
+</aside>

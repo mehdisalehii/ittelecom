@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Allow: /img/
+Disallow: /wp-content/
+Disallow: /admin/
+Disallow: /author/
+Disallow: /login/
+Disallow: /login
+Disallow: /clients/
+Disallow: /functions/
+Disallow: /invoice/
+Disallow: /instock/
+Disallow: /search/
+Disallow: /links/
+Disallow: /shrlnk/
+Allow: /assets/
+Allow: /assets/logo/favicon.png
+Allow: /images/
+Allow: /favicon.svg
+Allow: /generated/
+Allow: /icons/
+Disallow: /p/
+
+Sitemap: https://ittelecom.ir/sitemap.xml
